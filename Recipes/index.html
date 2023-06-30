@@ -4,15 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <h1 class="odin-reci">
-        Odin recipes
-    </h1>
-    <ul>
-        <li>  <a href="lasagna.html">Recipe Titel1</a></li>
-        <li>  <a href="noodels.html">Recipe Titel2</a></li>
-    </ul>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    
+
+<!-- 
+    <div class="container " >
+        <div class="row border border border-dark ">
+            <div class="col-md-2 border border-dark ">
+                <span class="header-text">Features</span><br />
+                <div class="value-text" id="jobid">@Model.ToolBodyDefinition</div>
+
+
+                <div class="value-text" id="jobid" data-attr="@Model.Dam">@Model.Dam</div>
+
+
+                <div class="value-text" id="jobid">@Model.Chamfer</div>
+
+
+                <div class="value-text" id="jobid">@Model.Scribe</div>
+
+
+                <div class="value-text" id="jobid">@Model.IO</div>
+            </div>
+           
+           <div class="col-md-8">
+            <div class="row">
+                <div class="col-6">
+                    <div>
+                        <span class="header-text">Product</span>
+                        <span class="value-text">@Model.Product</span>
+                    </div>
+                    <div>
+                        <span class="header-text">Material</span>
+                        <span class="value-text">@Model.ToolMaterial</span>
+                    </div>
+                </div>
+                </div>
+                <div class="col-6">
+                    <div>
+                        <span class="header-text">Product</span>
+                        <span class="value-text">@Model.Product</span>
+                    </div>
+                    <div>
+                        <span class="header-text">Material</span>
+                        <span class="value-text">@Model.ToolMaterial</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+           </div>
+
+                
+        </div>
+
+    </div> -->
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <span class="header-text">Features</span><br />
+                <div class="value-text" id="jobid">@Model.ToolBodyDefinition</div>
+
+
+                <div class="value-text" id="jobid" data-attr="@Model.Dam">@Model.Dam</div>
+
+
+                <div class="value-text" id="jobid">@Model.Chamfer</div>
+
+
+                <div class="value-text" id="jobid">@Model.Scribe</div>
+
+
+                <div class="value-text" id="jobid">@Model.IO</div>
+            </div>
+            <div class="col">
+                <!-- Column 2 -->
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <span class="header-text">Product</span>
+                            <span class="value-text">@Model.Product</span>
+                        </div>
+                        <div>
+                            <span class="header-text">Material</span>
+                            <span class="value-text">@Model.ToolMaterial</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <span class="header-text">Engravings</span>
+                            <span class="value-text">@Model.EngravingMax</span>
+                        </div>
+                        <div>
+                            <span class="header-text">Engraving MIN/MAX</span>
+                            <span class="value-text">@Model.EngravingMax</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <span class="header-text">Purpose</span>
+                            <span class="value-text">@Model.Purpose</span>
+                        </div>
+                        <div>
+                            <span class="header-text">Comments</span>
+                            <span class="value-text"> aasdffkjnsfdlkfskjdsf.ksdfadfasfddafadfsfdsdfdf</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
